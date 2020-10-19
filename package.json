@@ -1,23 +1,9 @@
 {
-  "name": "redis-image",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "dependencies": {
+    "express": "*",
+    "redis": "2.8.0"
+  },
   "scripts": {
     "start": "node index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/david11yf29/redis-image.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/david11yf29/redis-image/issues"
-  },
-  "homepage": "https://github.com/david11yf29/redis-image#readme",
-  "dependencies": {
-    "express": "^4.17.1"
   }
 }
